@@ -472,7 +472,6 @@ img {
   }
 }
 
-/*===== Gradient Background Animation =====*/
 @keyframes gradientAnimation {
   0% { background-position: 0% 0%; }
   50% { background-position: 100% 100%; }
@@ -480,8 +479,8 @@ img {
 }
 
 body {
-  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad0c4, #ff9a9e);
-  background-size: 400% 400%;
+  background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c0fe, #d4fc79);
+  background-size: 500% 500%;
   animation: gradientAnimation 15s ease infinite;
 }
 
